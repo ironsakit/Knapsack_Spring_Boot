@@ -2,7 +2,7 @@
 
 Un'applicazione web full-stack per risolvere il classico **Problema dello Zaino (Knapsack Problem)**.
 
-<img src="docs/Screenshot.png" alt="Screenshot dell'interfaccia" width="600"/>
+![Screenshot dell'interfaccia](docs/Screenshot.png)
 
 ## 🚀 Architettura del Progetto
 Il progetto fa comunicare tre tecnologie diverse in modo fluido:
