@@ -56,5 +56,5 @@ Usa il wrapper di Gradle incluso nel progetto per avviare il backend:
 ```
 
 ### 4. Apri l'Applicazione
-Apri il tuo browser preferito e vai all'indirizzo:
+Apri il tuo browser e vai all'indirizzo:
 👉 **http://localhost:8080/**
