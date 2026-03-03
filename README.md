@@ -4,13 +4,13 @@ Un'applicazione web full-stack per risolvere il classico **Problema dello Zaino 
 
 ![Screenshot dell'interfaccia](docs/Screenshot.png)
 
-## 🚀 Architettura del Progetto
+## Architettura del Progetto
 Il progetto fa comunicare tre tecnologie diverse in modo fluido:
 1. **Frontend (HTML/CSS/JS):** Un'interfaccia web dark-mode servita direttamente da Spring Boot (`src/main/resources/static/index.html`). Raccoglie i dati dell'utente e li invia tramite `fetch` API.
 2. **Backend (Java Spring Boot):** Un `@RestController` in ascolto sull'endpoint `/api/ottimizza` che riceve il payload JSON, lo analizza e orchestra l'esecuzione del file binario.
 3. **Core Algoritmico (C):** Il file `zaino.c` (compilato in eseguibile) riceve i parametri da Java tramite `ProcessBuilder`, esegue l'ottimizzazione e restituisce il risultato testuale.
 
-## 📋 Prerequisiti
+## Prerequisiti
 Per eseguire questo progetto sul tuo computer, assicurati di avere:
 * **Java JDK 21**.
 * **Un compilatore C** (`gcc` raccomandato):
@@ -20,7 +20,7 @@ Per eseguire questo progetto sul tuo computer, assicurati di avere:
 
 ---
 
-## 🛠️ Installazione e Avvio
+## Installazione e Avvio
 
 ### 1. Clona il repository
 ```bash
@@ -57,4 +57,4 @@ Usa il wrapper di Gradle incluso nel progetto per avviare il backend:
 
 ### 4. Apri l'Applicazione
 Apri il tuo browser e vai all'indirizzo:
-👉 **http://localhost:8080/**
+ **http://localhost:8080/**
